@@ -125,6 +125,11 @@ img {
 
     color: #212121;
 }
+.service-images {
+    display: flex;
+    gap: 30px;
+    padding: 50px 0 94px;
+}
 
 /* SERVICES */
 
@@ -149,6 +154,15 @@ img {
     color: #757575;
 }
 
+.crew {
+    background-color: #f5f4fa;
+    padding: 94px 0;
+}
+.crew-members {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
 /* TEAM */
 /* CLIENTS */
 
