@@ -11,6 +11,36 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--main-font);
 }
+*,
+*::before,
+*::after {
+    outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img {
+    vertical-align: middle;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
 
 /* UTILS */
 .logo {
@@ -140,16 +170,27 @@ body {
     color: var(--primary-color);
 }
 .footer .contact {
+    color: rgba(255, 255, 255, 0.6);
     line-height: 1.71;
     font-weight: 400;
     letter-spacing: 0.03em;
 }
 .footer-color {
     color: #fff;
+    font-size: 14px;
+    line-height: 1.71;
+
+    letter-spacing: 0.03em;
     font-style: normal;
 }
 .footer-bg {
     background-color: var(--bg-color-accent2);
+}
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-top: 20px;
 }
 /* FOOTER */
 
