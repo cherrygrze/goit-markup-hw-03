@@ -294,4 +294,12 @@ img {
     cursor: pointer;
 }
 
+.project-name {
+    color: var(--main-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 4px;
+}
+
 /* PORTFOLIO */
