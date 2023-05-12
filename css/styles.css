@@ -331,7 +331,7 @@ img {
 }
 
 .project-card-desc {
-    color: var(--brand-gray);
+    color: var(--second-font-color);
     margin: 20px 0 20px 24px;
     line-height: 30px;
 }
