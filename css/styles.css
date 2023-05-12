@@ -5,6 +5,7 @@
     --bg-color-accent1: #f5f4fa;
     --bg-color-accent2: #2f303a;
     --second-font-color: #757575;
+    --portfolio-border-gray: #eeeeee;
 }
 
 body {
@@ -171,6 +172,30 @@ img {
 /* SERVICES */
 
 /* TEAM */
+.team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 1px rgba(0, 0, 0, 0.14),
+        0 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 4px 4px;
+}
+
+.team-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.team-subtitles {
+    padding: 30px;
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .team {
     background-color: var(--bg-color-accent1);
 }
@@ -189,15 +214,16 @@ img {
     color: #757575;
 }
 .introduce {
+    margin: 0 0 50px 0;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.16;
+    line-height: 42px;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 .crew {
-    background-color: #f5f4fa;
-    padding: 94px 0;
+    background-color: var(--brand-bluegray);
+    display: flex;
+    justify-content: center;
 }
 
 /* TEAM */
@@ -261,14 +287,29 @@ img {
     align-items: center;
     gap: 4px;
 }
+.our-projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .options {
     display: flex;
     justify-content: center;
     gap: 8px;
-
     margin-bottom: 50px;
 }
+.projects-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 30px;
+}
+.project-card {
+    border: var(--portfolio-border-gray) solid 1px;
+}
+
 .portfolio-main {
     font-weight: 700;
     font-size: 18px;
@@ -296,10 +337,17 @@ img {
 
 .project-name {
     color: var(--main-font);
-    font-weight: 700;
+    margin: 20px 0 0 24px;
     font-size: 18px;
-    line-height: 2;
-    margin-bottom: 4px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.project-card-desc {
+    color: var(--brand-gray);
+    margin: 20px 0 20px 24px;
+    line-height: 30px;
 }
 
 /* PORTFOLIO */
