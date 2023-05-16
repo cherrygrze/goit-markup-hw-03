@@ -67,6 +67,13 @@ img {
 
 /* HEADER */
 
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header {
     padding: 24px 0 25px;
     border-bottom: 1px solid #ececec;
