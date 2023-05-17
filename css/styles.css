@@ -76,6 +76,9 @@ img {
 
 .menu-head {
     justify-content: space-between;
+    display: flex;
+    margin-left: 93px;
+    gap: 50px;
 }
 
 .header {
