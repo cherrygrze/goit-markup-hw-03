@@ -74,6 +74,9 @@ img {
     align-items: center;
 }
 
+.menu-head {
+    justify-content: space-between;
+}
 .header {
     padding: 24px 0 25px;
     border-bottom: 1px solid #ececec;
