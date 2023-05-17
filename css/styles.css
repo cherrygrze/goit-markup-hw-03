@@ -69,15 +69,12 @@ img {
 
 .menu {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 .header-menu {
-    justify-content: space-between;
     display: flex;
-    margin-left: 93px;
 }
 
 .header-contacts {
@@ -96,6 +93,7 @@ img {
     flex-wrap: wrap;
     align-items: center;
     gap: 46px;
+    margin-left: 93px;
 }
 
 .navigation {
